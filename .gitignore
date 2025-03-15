@@ -1,0 +1,27 @@
+# Ignora tudo dentro de data/
+data/*
+!data/metadata.csv
+
+# Ignora subpastas dentro de data/
+data/bounding_boxes/
+data/frames/
+data/keypoints/
+data/metadata.zip
+
+# Ignora pastas temporárias comuns
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+
+# Node / Frontend-related (só se frontend usar Node.js)
+node_modules/
+
+# VSCode settings
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
